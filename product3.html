@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store | Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&isplay=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- start header -->
+
+    <header>
+        <div class="top-header d-flex align-items-center py-2">
+            <div class="container">
+                <div class="row align-items-center">
+
+
+                    <div class=" col-6 col-md-4">
+                        <a href="" class="logo">
+                            <img width="180px" src="images/logo.png" alt="logo">
+
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4">
+                        <input type="text" class="form-control" placeholder="بحث عن المنتج">
+                    </div>
+
+
+                    <div class="col-md-4 left-header d-flex align-items-center d-none d-lg-flex justify-content-end">
+                        <a class="f8" data-bs-toggle="offcanvas" href="#card" role="button"
+                            aria-controls="offcanvasExample">
+                            <span>السلة</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a class="f8" data-bs-toggle="offcanvas" href="#login" role="button"
+                            aria-controls="offcanvasExample">
+                            <span>الدخول</span>
+                            <i class="fa-solid fa-user"></i>
+                            </data-bs-toggle=>
+                            <a class="f8" href="">
+                                <span>المفضلة</span>
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="buttom-header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+
+
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div>
+
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#card">
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                        </button>
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#login">
+                            <i class="fa-solid fa-user"></i>
+
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                        </button>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">السلاسل و القلائد</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الأقراط</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الأساور و الخواتم</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الشعر و المحافظ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الساعات النسائية الفاخرة</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">طوق المجوهرات المتكامل</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- end header -->
+
+    <div class="container mt-5">
+        <!-- <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+        <li class="breadcrumb-item active" aria-current="page">اكسسوارات</li>
+        <li class="breadcrumb-item active" aria-current="page">أقراط</li>
+
+       </ol>
+
+          </nav> -->
+        <div class="row justify-content-end ">
+            <div class="col-md-4">
+
+                <div id="carouselStackedIndicators" class="carousel slide">
+                    <div class="carousel-indicators carousel-images">
+                        <img data-bs-target="#carouselStackedIndicators" data-bs-slide-to="0" class="active img-slider"
+                            src="images/73.jpg" alt="">
+                        <img data-bs-target="#carouselStackedIndicators" data-bs-slide-to="1" class=" img-slider"
+                            aria-label="Slide 2" src="images/73.1.jpg" alt="">
+                        <img data-bs-target="#carouselStackedIndicators" data-bs-slide-to="2" class=" img-slider"
+                            aria-label="Slide 3" src="images/73.2.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/73.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/73.1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/73.2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselStackedIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselStackedIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+            <div class="col-md-7">
+                <img width="40%" class="mt-3" src="images/لقطة-removebg-preview.png" alt="">
+                <h1 class="modal-title fs-5 mb-2"> أقراط البتلات الكريستالية</h1>
+                <p class="product-description">
+مستوحاة من رقة الطبيعة وأوراق الزهور المتفتحة، تتألق هذه الأقراط بحبيبات كريستالية تعكس الضوء برقة لتمنح وجهكِ إضاءة طبيعية ولمسة ساحرة تفيض رقيّاً وجاذبية.
+                </p>
+                <div class="quick-reviews mb-3">
+                    <span>تقييمات المستخدمين:</span>
+                    <div class="stars d-inline-flex ">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="empty fa-regular fa-star"></i>
+                        <i class="empty fa-regular fa-star"></i>
+                    </div>
+                    <div class="ma mb-3">
+                        <span>السعر 3$</span>
+                        <!-- <span>10$</span> -->
+                    </div>
+
+                    <div class="btns  d-flex gap-2">
+                        <div class="btn-group btn-group-sm btns-quantity ">
+                            <button type="button" class="btn btttn">+</button>
+                            <button type="button" class="btn btttn">1</button>
+                            <button type="button" class="btn btttn">-</button>
+                        </div>
+
+                        <div>
+                            <button class="btn btnns bttn">إضافة إلى السلة</button>
+                            <button class="btn btnns bttn ">شراء الآن</button>
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="gategory mb-3">
+                        <span>التصنيفات:</span>
+                        <a class="aa" href="">أقراط</a>
+                    </div>
+                    <div class="share">
+                        <span>المشاركة:</span>
+                        <div class="share-icons d-inline-flex gap-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container pt-5">
+
+            <ul class="nav nav-tabs">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#describtion"> تفاصيل
+                        المنتج</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#reviews">المراجعات</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#rings">بيانات الشحن</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab">أساور</a>
+            </li> -->
+
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade mt-5 show active" id="describtion">
+                    <div class="row row-cols-md-2 flex-column-reverse flex-md-row">
+                        <div class="col ">
+                            <p class="mt-2">
+يستعرض هذا التصميم الاستثنائي مفهوم الفخامة المستوحاة من الطبيعة من خلال دمج ساحر بين البتلات الدقيقة والمصقولة بدقة، والحبيبات الكريستالية البراقة التي ترمز للرقي والتمتّع بحضورٍ ساحر. صُممت كل قطعة لتمنحكِ توازناً مثالياً بين النعومة والجاذبية الشديدة، مما يجعلها خياراً فريداً يكمل إطلالتكِ في أرقى المناسبات واللقاءات اليومية بلمسة تُبرز إشراقة وجهكِ بأسلوب عصري جذاب.
+                            </p>
+                            <p>
+​تمت صناعة كافة القطع باستخدام أجود أنواع المعادن المقاومة للتآكل والأكسدة، مع رصف الكريستال بتقنيات عالية الدقة تحافظ على بريقه ولمعانه طوال فترة الاستخدام. يضمن لكِ هذا الاهتمام البالغ بالتفاصيل ثباتاً مثالياً في اللون ومقاومة ممتازة للعوامل اليومية، لتنعمي بقطعة مجوهرات تدوم طويلاً وتحتفظ بفخامتها الفائقة كما لو كانت جديدة في كل مرة ترتدينها.
+                            </p>
+                            <p>
+​سواء كنتِ تبحثين عن إضافة متألقة لمجموعتكِ الخاصة تعكس ذوقكِ الرفيع واستقلاليتكِ في اختيار الأفضل، أو ترغبين في تقديم هدية استثنائية تعبّر عن أسمى مشاعر التقدير لمن تحبين، فإن هذه الأقراط تُعد الاختيار الأرقى بلا منازع. تأتيكِ بطابع متناغم يسهل تنسيقه مع مختلف أنماط الأزياء، ليضفي مسحة ملكية ناعمة تخطف الأنظار بكل ثقة وهدوء.
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="images/73 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade mt-5" id="reviews">
+                        <div class="row flex-column-reverse flex-md-row justify-content-start gap-3">
+                            <div class="col col-md-5  ">
+                                <h3 class="review-title mt-4 mb-1">يسعدنا إبداء رأيكم بالمنتج</h3>
+                                <form action="">
+                                    <div class="mb-2">
+                                        <label for="" class="form-label"></label>
+                                        <input type="text" class="form-control" placeholder="الرجاء ادخال الاسم">
+                                    </div>
+                                    <div class="mb-2">
+                                        <label for="" class="form-label"></label>
+                                        <input type="email" class="form-control" placeholder="الرجاء ادخال البريد">
+                                    </div>
+                                    <div class="mb-2">
+                                        <label for="" class="form-label"></label>
+                                        <textarea name="" id="" class="form-control" rows="5"></textarea>
+                                    </div>
+                                    <button class="btn btnns bttn">إرسال البيانات</button>
+                                </form>
+                            </div>
+                            <div class="col col-md-5 ">
+                                <h3 class="review-title mb-3">تقييمات العملاء الأكارم</h3>
+                                <h3 class="mma">3.9</h3>
+                                <div class="stars d-inline-flex ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+                                <p class="review-title">3900 عميل أبدى رأيه بالمنتج</p>
+                                <div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <span>5 <i class="fa-solid fa-star star"></i></span>
+                                        <div class="progress flex-grow-1" role="progressbar"
+                                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progres-gold"
+                                                style="width: 75%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-3">
+                                        <span>4 <i class="fa-solid fa-star star"></i></span>
+                                        <div class="progress flex-grow-1" role="progressbar"
+                                            aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progres-gold"
+                                                style="width: 50%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-3">
+                                        <span>3 <i class="fa-solid fa-star star"></i></span>
+                                        <div class="progress flex-grow-1" role="progressbar"
+                                            aria-label="Animated striped example" aria-valuenow="30" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progres-gold"
+                                                style="width: 30%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-3">
+                                        <span>2 <i class="fa-solid fa-star star"></i></span>
+                                        <div class="progress flex-grow-1" role="progressbar"
+                                            aria-label="Animated striped example" aria-valuenow="15" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progres-gold"
+                                                style="width: 15%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-3">
+                                        <span>1 <i class="fa-solid fa-star star"></i></span>
+                                        <div class="progress flex-grow-1" role="progressbar"
+                                            aria-label="Animated striped example" aria-valuenow="5" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progres-gold"
+                                                style="width: 5%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="tab-pane fade mt-5" id="rings">
+
+                    <div class="row row-cols-md-2 flex-column-reverse flex-md-row">
+                        <div class="col ">
+                            <h2 class="mma mt-2">تعليمات الشحن للإكسسوارات:</h2>
+                            <h5 class="review-title">التغليف الآمن</h5>
+                            <p>تُفلَّف كل قطعة مجوهرات بعناية فائقة ضمن غلاف فاخر ومضاد للصدمات، لضمان زصولها إليكِ بأمان تام وبريقها الساحر دون أي خدوش.</p>
+                            <h5 class="review-title"> التعامل مع الطرود</h5>
+                            <P>نعتني بأدق التفاصيل ونتعامل مع طرودكم الفاخرة بأعلى معايير الحرص والإحترافية، لضمان سلامتها الكاملة طوال رحلتها ختى باب منزلكِ.</P>
+                            <h5 class="review-title"> تفاصيل الشحن: </h5>
+                            <p>نوفِّر خيارات شحن سريعة و آمنة تغطي مختلف المناطق، مع متابعة دقيقة لحالة طلبكِ لضمان وصول تشكيلة مجوهراتكِ المفضلة في الموعد المحدد وبكل راحة.</p>
+
+
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="images/shipping.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- <div class="tab-pane fade mt-5"></div> -->
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- Footer Minimal & Elegant Section Start -->
+
+    <footer class="light-footer py-5 mt-5">
+
+
+        <div class="container">
+
+            <div class="footer-newsletter-card p-4 p-md-5 mb-5 rounded-4 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <span class="badge bg-soft-gold text-dark mb-2 px-3 py-2 rounded-pill">عالم من الأنثوية
+                            والجمال</span>
+                        <h3 class="fw-bold mb-3">كوني أول من يكتشف تشكيلاتنا الجديدة</h3>
+                        <p class="text-muted mb-4 small f-m">اشتركي في النشرة البريدية ليصلكِ كل جديد وعروض حصرية خاصة
+                            بمشتركينا.</p>
+                        <form class="d-flex gap-2 justify-content-center flex-column flex-sm-row">
+                            <input type="email" class="form-control rounded-pill border-0 shadow-sm px-4"
+                                placeholder="أدخلي بريدك الإلكتروني..." required>
+                            <button class="btn btn-dark-custom rounded-pill px-4 py-2 text-nowrap"
+                                type="submit">اشتراك</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="brand-logo fw-bold mb-3 f-f">MARIA JEWELRY</h4>
+                    <p class="text-muted small leading-relaxed f-m">
+                        نصمم ونختار لكِ قطع الإكسسوارات بعناية فائقة لتتألقي في يومكِ ومناسباتكِ السعيدة بلمسات من
+                        الأناقة الدائمة.
+                    </p>
+                    <ul class="navbar-nav text-white f1">
+                        <li><i class="fa-solid fa-location-dot "> syria - hama </i></li>
+                        <li><i class="fa-solid fa-phone"> 0954248728 </i></li>
+                        <li><i class="fa-solid fa-envelope"> jewelry@onlinshop.com </i></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <h6 class="fw-bold mb-3 text-dark f-f">التصنيفات</h6>
+                    <ul class="list-unstyled footer-menu small f-m ">
+                        <li><a href="#">الأقراط والخواتم</a></li>
+                        <li><a href="#">السلاسل والقلائد</a></li>
+                        <li><a href="#"> العناية بالبشرة </a></li>
+                        <li><a href="#">العطورات الفاخرة</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <h6 class="fw-bold mb-3 text-dark f-f">تواصلي معنا</h6>
+                    <ul class="list-unstyled footer-menu small f-m">
+                        <li><a href="#">مركز المساعدة</a></li>
+                        <li><a href="#">الشحن والتوصيل</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">تواصل عبر الواتساب</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3 text-dark f-f">تابعينا</h6>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-light-subtle my-4">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-muted">
+                <p class="mb-2 mb-md-0 f-m">&copy; 2026 MARIA JEWELRY. جميع الحقوق محفوظة.</p>
+                <div class="d-flex gap-3 fs-5 opacity-75">
+                    <img src="https://img.icons8.com/color/48/visa.png" alt="Visa" class="payment-img">
+
+                    <img src="https://img.icons8.com/color/48/mastercard.png" alt="MasterCard" class="payment-img">
+
+                    <img src="https://img.icons8.com/color/48/amex.png" alt="American Express" class="payment-img">
+
+                    <img src="https://img.icons8.com/color/48/diners-club.png" alt="Diners Club" class="payment-img">
+
+                    <!-- <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-apple-pay"></i> -->
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Footer Minimal & Elegant Section End -->
+
+    <!-- cart -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="card" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="card">سلة المشتريات</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row row-cols-1 row-min-card">
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/36.jpg" alt="">
+                    <p>خاتم الزهرة البيضاء</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/50.jpg" alt="">
+                    <p>خاتم الألماس الناعم</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/35.jpg" alt="">
+                    <p>أقراط الأوراق المتناثرة</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/32.jpg" alt="">
+                    <p>طقم الزهور الملكية</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/8.jpg" alt="">
+                    <p>عقد قطرة الندى</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+                <div class="mini-card d-flex justify-content-between align-items-center ">
+                    <img class="img-fluid w-25" src="images/52.jpg" alt="">
+                    <p>طقم اللؤلؤ الذهبي</p>
+
+                    <div class="btn-group  btns-quantity-mini">
+                        <button type="button" class="btn ">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn ">-</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <p class="alert alert-danger alert-text  p-3 my-3 text-center">مجموع المنتجات: 46.5$ فقط لا غير</p>
+                <a href="cart.html"> <button class="btn ptn btn-primary w-100">عرض السلة</button>
+                </a>
+                <a href="checkout.html"> <button class="btn ptn btn-danger w-100">إتمام الطلب</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- login -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">تسجيل الدخول</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class=" mini-login">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">اسم المستخدم أو البريد</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">تسجيل الدخول</button>
+                </form>
+
+                <div class="alert alert-danger my-2 text-center mar ">
+                    <a href="">انقر هنا في حال نسيان كلمة المرور</a>
+                </div>
+                <hr>
+
+                <div class="text-center mt-4">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                    <p>لا يوجد لديك حساب؟</p>
+
+                    <a href="" class=" btn  btn-danger w-100 text-white">إنشاء حساب جديد</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
